@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 
-.eje_tweet {
+.eje_twitter {
   width: 600px;
   background-color: white;
   padding: 20px;
@@ -34,16 +34,16 @@ body {
 }
 
 .user,
-.user_tweet {
+.user_twitter {
   margin: 0;
 }
 
-.user_tweet, .tweet_date {
+.user_twitter, .twitter_date {
     color: rgb(91, 112, 131);
     font-size: 14px
 }
 
-.tweet_content {
+.twitter_content {
   margin-bottom: 10px;
   font-size: 20px;
 }
