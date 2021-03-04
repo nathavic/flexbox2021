@@ -1,9 +1,80 @@
-* {
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Verdana, Ariel, sans-serif;
+  background-color: #1DA1F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eje_tweet {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.profile_photo{
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.profile__name {
+  margin-left: 10px;
+}
+
+.user,
+.user_tweet {
   margin: 0;
 }
 
-.container{
-    width: 100%;
-    height: 600px;
-    background-color: blanchedalmond;
+.user_tweet, .tweet_date {
+    color: rgb(91, 112, 131);
+    font-size: 14px
 }
+
+.tweet_content {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.space {
+  margin: 20px 0;
+  border-style: solid;
+  opacity: 0.1;
+}
+
+.status {
+  font-size: 15px;
+  display: flex;
+}
+
+.status_number {
+  font-size: 15px;
+}
+
+.likes {
+  margin-left: 10px;
+}
+
+.action {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
